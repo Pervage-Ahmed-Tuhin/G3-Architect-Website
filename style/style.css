@@ -9,7 +9,13 @@
 /* shared styles */
 
 .btn-primary{
-    
+    border-radius: 8px;
+    background: #FF900E;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
 }
 
 /* header style */
@@ -67,3 +73,38 @@ nav li a{
     font-weight: 400;
 }
 
+.banner-img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/* responsive media quarry */
+
+/* mobile devices */
+@media screen and (max-width:576px) {
+
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+
+}
+
+/* medium devices */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+
+    header{
+        padding: 50px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    
+}
